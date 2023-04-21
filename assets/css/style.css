@@ -22,7 +22,7 @@
   background-color: #9b59b6;
 }
 
-.bg-color-contact {
+.bg-color-projects {
   background-color: #ffffff;
 }
 
@@ -42,7 +42,7 @@
   background-color: #9b59b6;
 }
 
-.ui-menu-color-contact {
+.ui-menu-color-projects {
   background-color: #3498db;
 }
 
@@ -60,7 +60,7 @@
 }
 
 
-
+/* Main */
 
 body {
   font-family: Roboto, sans-serif;
