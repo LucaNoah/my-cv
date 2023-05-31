@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
-
+section-column
 /* Colors */
 
 .bg-color-name-title {
@@ -244,17 +244,6 @@ footer .cv-pdf i:hover {
   margin: 20px;
 }
 
-/* Three Reasons */
-
-.three-reasons-icon {
-  font-size: 26px;
-  color: #e67e22;
-}
-
-.three-reasons-heading {
-  margin-bottom: 15px;
-}
-
 /* Personal Info */
 
 .personal-info-item {
@@ -291,6 +280,18 @@ footer .cv-pdf i:hover {
   width: 60%;
 }
 
+/* Three Reasons */
+
+.three-reasons-icon {
+  font-size: 26px;
+  color: #e67e22;
+  margin-left: 3rem;
+}
+
+.three-reasons-heading {
+  margin-bottom: 15px;
+}
+
 /* Skills */
 
 .progress {
@@ -310,7 +311,6 @@ footer .cv-pdf i:hover {
 .progress-section {
   margin: 40px 20px;
 }
-
 
 /* Work History */
 
@@ -358,6 +358,17 @@ footer .cv-pdf i:hover {
 
 .history-items {
   margin-bottom: 30px;
+}
+
+/* Showcase Project */
+
+.project-link {
+  text-decoration: none !important;
+  color: #555555 !important;
+}
+
+.project-icon {
+  color: #3498db;
 }
 
 /* Contact */

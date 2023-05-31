@@ -20,8 +20,8 @@
       "**/core.python*": true,
       "**/CVS": true
    },
-   "files.autoSave": "off",
-   "workbench.colorTheme": "Gitpod Dark",
+   "files.autoSave": "afterDelay",
+   "workbench.colorTheme": "Darcula Pycharm with Dark GUI",
    "terminal.integrated.gpuAcceleration": "canvas",
    "editor.defaultFormatter": "HookyQR.beautify",
    "[html]": {
