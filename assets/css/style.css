@@ -314,6 +314,17 @@ footer .cv-pdf i:hover {
 
 /* Work History */
 
+.work-icon {
+  color: #9b59b6;
+  margin-left: 3rem;
+  font-size: 26px;
+}
+
+.fa-link {
+  font-size: 17px;
+}
+
+
 .timeline-item {
   padding: 4em 2em 0em 2em;
   position: relative;
@@ -369,6 +380,8 @@ footer .cv-pdf i:hover {
 
 .project-icon {
   color: #3498db;
+  margin-left: 3rem;
+  font-size: 26px;
 }
 
 /* Contact */
