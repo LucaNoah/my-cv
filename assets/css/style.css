@@ -374,7 +374,7 @@ footer .cv-pdf i:hover {
 /* Showcase Project */
 
 .project-link {
-  text-decoration: none !important;
+  text-decoration: underline;
   color: #555555 !important;
 }
 
