@@ -384,6 +384,16 @@ footer .cv-pdf i:hover {
   font-size: 26px;
 }
 
+/* GitHub */
+
+.repo-list > ul {
+  list-style-type: none;
+}
+
+#gh-username {
+  margin-bottom: 2rem;
+}
+
 /* Media Queries */
 
 @media(min-width: 992px) {
