@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
-section-column
 /* Colors */
 
 .bg-color-name-title {
@@ -67,6 +66,10 @@ body {
   font-weight: 300;
   background-color: #525252;
   color: #555555;
+}
+
+.section-column {
+  min-height: 500px;
 }
 
 
@@ -162,6 +165,7 @@ header {
   text-decoration: none;
   color: #ffffff;
   height: 120px;
+  padding-top: 13px;
 }
 
 
@@ -283,9 +287,12 @@ footer .cv-pdf i:hover {
 /* Three Reasons */
 
 .three-reasons-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
   font-size: 26px;
   color: #e67e22;
-  margin-left: 3rem;
+  display: inline-block;
 }
 
 .three-reasons-heading {
@@ -379,14 +386,16 @@ footer .cv-pdf i:hover {
 }
 
 .project-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
   color: #3498db;
-  margin-left: 3rem;
   font-size: 26px;
 }
 
 /* GitHub */
 
-.repo-list > ul {
+.repo-list>ul {
   list-style-type: none;
 }
 
