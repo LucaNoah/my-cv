@@ -322,8 +322,10 @@ footer .cv-pdf i:hover {
 /* Work History */
 
 .work-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
   color: #9b59b6;
-  margin-left: 3rem;
   font-size: 26px;
 }
 
