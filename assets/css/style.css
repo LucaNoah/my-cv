@@ -423,6 +423,12 @@ footer .cv-pdf i:hover {
 }
 
 /* Media Queries */
+@media screen and (max-width: 766px) {
+  #logo-img {
+    margin-top: 0;
+  }
+}
+
 @media(min-width: 992px) {
   .section-column {
     padding: 0 30px 30px;
@@ -438,20 +444,14 @@ footer .cv-pdf i:hover {
   }
 }
 
-@media screen and (max-width: 766px) {
-  #logo-img {
-    margin-top: 0;
+@media(min-width: 992px) {
+  .about-ci {
+    padding-right: 200px;
   }
 }
 
 @media(min-width: 1400px) {
   .about-ci {
     padding-right: 400px;
-  }
-}
-
-@media(min-width: 992px) {
-  .about-ci {
-    padding-right: 200px;
   }
 }
