@@ -407,8 +407,15 @@ footer .cv-pdf i:hover {
 }
 
 /* GitHub */
+.repo-list {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
 .repo-list>ul {
   list-style-type: none;
+  text-align: left;
+  columns: 2;
 }
 
 #gh-username {
