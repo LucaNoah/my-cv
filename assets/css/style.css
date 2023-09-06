@@ -120,6 +120,7 @@ header {
 #logo-img {
   margin-top: 1.5rem;
   max-height: 20rem;
+  border-radius: 50%;
 }
 
 .name {
@@ -433,6 +434,7 @@ footer .cv-pdf i:hover {
 @media screen and (max-width: 766px) {
   #logo-img {
     margin-top: 0;
+    border-radius: 0%;
   }
 }
 
