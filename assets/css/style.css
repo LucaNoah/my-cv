@@ -438,7 +438,14 @@ footer .cv-pdf i:hover {
   }
 }
 
+@media(max-width: 992px) {
+  #map {
+    margin-bottom: 16px;
+  }
+}
+
 @media(min-width: 992px) {
+
   .section-column {
     padding: 0 30px 30px;
     float: none;
