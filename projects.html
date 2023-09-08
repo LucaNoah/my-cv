@@ -29,24 +29,45 @@
         <div class="row no-gutters">
           <div class="col">
             <ul id="nav" class="list-inline menucontainer row">
-              <li class="col-xs-6 col-sm-2 ui-menu-color-home menuitem">
+              <li class="col-xs-6 col-sm-2 d-sm-none ui-menu-color-home menuitem d-none d-sm-block">
+                <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home"
+                    aria-hidden="true"></i><span>Home</span></a>
+              </li>
+              <li class="col-xs-6 col-sm-2 ui-menu-color-home menuitem d-sm-none">
                 <a href="index.html#home" class="hvr-sweep-to-bottom"><i class="fa fa-home"
                     aria-hidden="true"></i><span>Home</span></a>
               </li>
-              <li class="col-xs-6 col-sm-2 ui-menu-color-resume menuitem">
+              <li class="col-xs-6 col-sm-2 ui-menu-color-resume menuitem d-none d-sm-block">
+                <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap"
+                    aria-hidden="true"></i><span>Resume</span></a>
+              </li>
+              <li class="col-xs-6 col-sm-2 ui-menu-color-resume menuitem d-sm-none">
                 <a href="resume.html#resume" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap"
                     aria-hidden="true"></i><span>Resume</span></a>
               </li>
-              <li class="col-xs-6 col-sm-2 ui-menu-color-projects menuitem">
-                <a href="#projects" class="hvr-sweep-to-bottom"><i class="fa fa-flag"
+              <li class="col-xs-6 col-sm-2 ui-menu-color-projects menuitem d-none d-sm-block">
+                <a href="projects.html" class="hvr-sweep-to-bottom"><i class="fa fa-flag"
                     aria-hidden="true"></i><span>Flagship Projects</span></a>
               </li>
-              <li class="col-xs-6 col-sm-2 ui-menu-color-codeinstitute menuitem">
+              <li class="col-xs-6 col-sm-2 ui-menu-color-projects menuitem d-sm-none">
+                <a href="projects.html#projects" class="hvr-sweep-to-bottom"><i class="fa fa-flag"
+                    aria-hidden="true"></i><span>Flagship Projects</span></a>
+              </li>
+
+              <li class="col-xs-6 col-sm-2 ui-menu-color-codeinstitute menuitem d-none d-sm-block">
+                <a href="codeinstitute.html" class="hvr-sweep-to-bottom"><i class="fa-solid fa-school"></i><span>Code
+                    Institue</span></a>
+              </li>
+              <li class="col-xs-6 col-sm-2 ui-menu-color-codeinstitute menuitem d-sm-none">
                 <a href="codeinstitute.html#codeinstitute" class="hvr-sweep-to-bottom"><i
                     class="fa-solid fa-school"></i><span>Code
                     Institue</span></a>
               </li>
-              <li class="col-xs-6 col-sm-2 ui-menu-color-github menuitem">
+              <li class="col-xs-6 col-sm-2 ui-menu-color-github menuitem d-none d-sm-block">
+                <a href="github.html" class="hvr-sweep-to-bottom"><i class="fa fa-github"
+                    aria-hidden="true"></i><span>GitHub</span></a>
+              </li>
+              <li class="col-xs-6 col-sm-2 ui-menu-color-github menuitem d-sm-none">
                 <a href="github.html#github" class="hvr-sweep-to-bottom"><i class="fa fa-github"
                     aria-hidden="true"></i><span>GitHub</span></a>
               </li>
@@ -67,9 +88,11 @@
           <div class="col-12">
             <h3 class="section-heading uppercase">Project Details</h3>
             <p>
-              These projects were created by me personally in the course of training as a full stack developer governed by
-              Code Institute. The focus was on applying the specified criteria which was required to obtain the diploma. The projects
-              here show my journey, from my very first project, a static HTML page to a complex e-commerce web
+              These projects were created by me personally in the course of training as a full stack developer governed
+              by
+              Code Institute. The focus was on applying the specified criteria which was required to obtain the diploma.
+              The projects
+              here show the journey, from my very first project, a static HTML page to a complex e-commerce web
               application.
             </p>
           </div>
@@ -84,14 +107,14 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+          <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6 mb-4">
             <div class="row">
               <div class="col-2">
                 <i class="project-icon fa-brands fa-glide-g"></i>
               </div>
               <div class="col-10">
                 <h4 class="mb-3">
-                  <a href="https://gfeller-herbs.herokuapp.com/" target="_blank" rel="noopener"
+                  <a href="https://gfeller-herbs-d2af5e64f88d.herokuapp.com/" target="_blank" rel="noopener"
                     class="project-link">Gfeller Herbs <i class="fa-solid fa-link"></i></i></a>
                 </h4>
                 <p>
@@ -105,10 +128,14 @@
                   special user account that allows them to add, edit and
                   delete products directly from the website.
                 </p>
+                <p>
+                  <a href="https://github.com/LucaNoah/gfeller-herbs/blob/main/README.md" class="doci-link"
+                    target="_blank" rel="noopener">View Documentation <i class="fa-solid fa-book"></i></a>
+                </p>
               </div>
             </div>
           </div>
-          <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+          <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6 mb-4">
             <div class="row">
               <div class="col-2">
                 <i class="project-icon fa-solid fa-leaf"></i>
@@ -129,10 +156,14 @@
                   articles written by other users or administrators and create
                   their own articles.
                 </p>
+                <p>
+                  <a href="https://github.com/LucaNoah/natural-healing-wiki/blob/main/readme.md" class="doci-link"
+                    target="_blank" rel="noopener">View Documentation <i class="fa-solid fa-book"></i></a>
+                </p>
               </div>
             </div>
           </div>
-          <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+          <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6 mb-4">
             <div class="row">
               <div class="col-2">
                 <i class="project-icon fa-solid fa-ship"></i>
@@ -150,10 +181,14 @@
                   The user can try to defeat the computer by locating all his
                   battleships before the computer finds his.
                 </p>
+                <p>
+                  <a href="https://github.com/LucaNoah/battleships/blob/main/README.md" class="doci-link"
+                    target="_blank" rel="noopener">View Documentation <i class="fa-solid fa-book"></i></a>
+                </p>
               </div>
             </div>
           </div>
-          <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+          <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6 mb-4">
             <div class="row">
               <div class="col-2">
                 <i class="project-icon fa-solid fa-hand-scissors"></i>
@@ -168,10 +203,14 @@
                   user the use of JavaScript in a realistic application by
                   means of a small but legendary game.
                 </p>
+                <p>
+                  <a href="https://github.com/LucaNoah/rock-paper-scissors/blob/main/readme.md" class="doci-link"
+                    target="_blank" rel="noopener">View Documentation <i class="fa-solid fa-book"></i></a>
+                </p>
               </div>
             </div>
           </div>
-          <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+          <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6 mb-4">
             <div class="row">
               <div class="col-2">
                 <i class="project-icon fa-solid fa-person-hiking"></i>
@@ -185,6 +224,10 @@
                   Hiking In Switzerland is a website where young and old can
                   get some information about hiking in Switzerland and sign up
                   for guided hikes.
+                </p>
+                <p>
+                  <a href="https://github.com/LucaNoah/hiking-in-switzerland/blob/main/readme.md" class="doci-link"
+                    target="_blank" rel="noopener">View Documentation <i class="fa-solid fa-book"></i></a>
                 </p>
               </div>
             </div>

@@ -12,6 +12,7 @@
   <script src="https://kit.fontawesome.com/8550ad9d95.js" crossorigin="anonymous"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsUyaXtSpfCKPNUA0Nk5Qs0Yt1AhtDZSI&callback=initMap"
     async defer></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <title>Luca Noah Gfeller</title>
 </head>
 
@@ -31,24 +32,45 @@
         <div class="row no-gutters">
           <div class="col">
             <ul id="nav" class="list-inline menucontainer row">
-              <li class="col-xs-6 col-sm-2 ui-menu-color-home menuitem">
-                <a href="#home" class="hvr-sweep-to-bottom"><i class="fa fa-home"
+              <li class="col-xs-6 col-sm-2 d-sm-none ui-menu-color-home menuitem d-none d-sm-block">
+                <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home"
                     aria-hidden="true"></i><span>Home</span></a>
               </li>
-              <li class="col-xs-6 col-sm-2 ui-menu-color-resume menuitem">
+              <li class="col-xs-6 col-sm-2 ui-menu-color-home menuitem d-sm-none">
+                <a href="index.html#home" class="hvr-sweep-to-bottom"><i class="fa fa-home"
+                    aria-hidden="true"></i><span>Home</span></a>
+              </li>
+              <li class="col-xs-6 col-sm-2 ui-menu-color-resume menuitem d-none d-sm-block">
+                <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap"
+                    aria-hidden="true"></i><span>Resume</span></a>
+              </li>
+              <li class="col-xs-6 col-sm-2 ui-menu-color-resume menuitem d-sm-none">
                 <a href="resume.html#resume" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap"
                     aria-hidden="true"></i><span>Resume</span></a>
               </li>
-              <li class="col-xs-6 col-sm-2 ui-menu-color-projects menuitem">
+              <li class="col-xs-6 col-sm-2 ui-menu-color-projects menuitem d-none d-sm-block">
+                <a href="projects.html" class="hvr-sweep-to-bottom"><i class="fa fa-flag"
+                    aria-hidden="true"></i><span>Flagship Projects</span></a>
+              </li>
+              <li class="col-xs-6 col-sm-2 ui-menu-color-projects menuitem d-sm-none">
                 <a href="projects.html#projects" class="hvr-sweep-to-bottom"><i class="fa fa-flag"
                     aria-hidden="true"></i><span>Flagship Projects</span></a>
               </li>
-              <li class="col-xs-6 col-sm-2 ui-menu-color-codeinstitute menuitem">
+
+              <li class="col-xs-6 col-sm-2 ui-menu-color-codeinstitute menuitem d-none d-sm-block">
+                <a href="codeinstitute.html" class="hvr-sweep-to-bottom"><i class="fa-solid fa-school"></i><span>Code
+                    Institue</span></a>
+              </li>
+              <li class="col-xs-6 col-sm-2 ui-menu-color-codeinstitute menuitem d-sm-none">
                 <a href="codeinstitute.html#codeinstitute" class="hvr-sweep-to-bottom"><i
                     class="fa-solid fa-school"></i><span>Code
                     Institue</span></a>
               </li>
-              <li class="col-xs-6 col-sm-2 ui-menu-color-github menuitem">
+              <li class="col-xs-6 col-sm-2 ui-menu-color-github menuitem d-none d-sm-block">
+                <a href="github.html" class="hvr-sweep-to-bottom"><i class="fa fa-github"
+                    aria-hidden="true"></i><span>GitHub</span></a>
+              </li>
+              <li class="col-xs-6 col-sm-2 ui-menu-color-github menuitem d-sm-none">
                 <a href="github.html#github" class="hvr-sweep-to-bottom"><i class="fa fa-github"
                     aria-hidden="true"></i><span>GitHub</span></a>
               </li>

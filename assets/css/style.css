@@ -118,7 +118,7 @@ header {
 }
 
 #logo-img {
-  margin-top: 1.5rem;
+  margin-top: 3.6rem;
   max-height: 20rem;
   border-radius: 50%;
 }
@@ -179,6 +179,10 @@ header {
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 2px;
+}
+
+.menuitem-s {
+  display: none;
 }
 
 /* Hover.css */
@@ -372,8 +376,12 @@ footer .cv-pdf i:hover {
 
 /* Showcase Project */
 .project-link {
-  text-decoration: underline;
   color: #555555 !important;
+}
+
+.doci-link {
+  font-size: 14px;
+  color: #808080 !important;
 }
 
 .project-icon {
@@ -428,6 +436,14 @@ footer .cv-pdf i:hover {
   .repo-list>ul {
     columns: 1;
     text-align: center;
+  }
+
+  .menuitem-l {
+    display: none;
+  }
+
+  .menuitem-s {
+    display: block;
   }
 }
 
